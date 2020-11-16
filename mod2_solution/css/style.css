@@ -26,20 +26,20 @@ h1 {
 .container {
   position: relative;
   background-color: grey;
-  border: 3px solid black;
+  border: 1px solid black;
   font-family: Helvetica;
   color: black;
 }
 
 #Heading_1 {
   position: absolute;
-  top:-3px;
-  right:-3px;
+  top:-1px;
+  right:-1px;
   background-color: yellow;
   width: 100px;
   height: 30px;
   text-align: center;
-  border: 5px solid black;
+  border: 1px solid black;
   font-family: Helvetica;
   font-weight: bold;
   font-size:125%;
@@ -49,13 +49,13 @@ h1 {
 
 #Heading_2 {
   position: absolute;
-  top:-3px;
-  right:-3px;
+  top:-1px;
+  right:-1px;
   background-color: red;
   width: 100px;
   height: 30px;
   text-align: center;
-  border: 5px solid black;
+  border: 1px solid black;
   font-family: Helvetica;
   font-weight: bold;
   font-size:125%;
@@ -65,13 +65,13 @@ h1 {
 
 #Heading_3 {
   position: absolute;
-  top:-3px;
-  right:-3px;
+  top:-1px;
+  right:-1px;
   background-color: pink;
   width: 100px;
   height: 30px;
   text-align: center;
-  border: 5px solid black;
+  border: 1px solid black;
   font-family: Helvetica;
   font-weight: bold;
   font-size:125%;
