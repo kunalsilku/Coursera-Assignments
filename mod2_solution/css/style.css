@@ -1,0 +1,119 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  margin: 50px;
+  font-size:175%;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.Text{
+  padding:40px 10px 10px 10px;
+  font-family: Helvetica;
+  clear:left;
+  font-weight: bold;
+}
+
+
+.row {
+  width: 100%;
+}
+.container {
+  position: relative;
+  background-color: grey;
+  border: 3px solid black;
+  font-family: Helvetica;
+  color: black;
+}
+
+#Heading_1 {
+  position: absolute;
+  top:-3px;
+  right:-3px;
+  background-color: yellow;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: 5px solid black;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size:125%;
+  color: black;
+
+}
+
+#Heading_2 {
+  position: absolute;
+  top:-3px;
+  right:-3px;
+  background-color: red;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: 5px solid black;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size:125%;
+  color: white;
+
+}
+
+#Heading_3 {
+  position: absolute;
+  top:-3px;
+  right:-3px;
+  background-color: pink;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: 5px solid black;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size:125%;
+  color: black;
+
+}
+
+
+
+/********** Desktop only **********/
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+    padding: 15px;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  
+}
+
+/********** Tablet only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+    padding: 15px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile only **********/
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    padding:15px;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
