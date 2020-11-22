@@ -1,0 +1,89 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Page name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  font-family: 'Lora', serif;
+  color: #951C49;
+  background-color: #80ff80;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.8em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+#Page-Heading h1{ /* Page name */
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#chicken-tile h3, #beef-tile h3, #sushi-tile h3 {
+  font-weight: bold;
+  font-size: 1.6em;
+  color: #61122f;
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p {
+  margin: 10px; 
+  font-size: 1.1em;
+  color: #000;
+}
+
+/* END HOME PAGE */
+
