@@ -111,16 +111,22 @@ function buildAndShowCategoriesHTML (categories) {
     categoriesTitleHtml,
     function (categoriesTitleHtml) {
       // Retrieve single category snippet
+      console.log(categoriesTitleHtml);
+      console.log("check 1");
       $ajaxUtils.sendGetRequest(
         categoryHtml,
         function (categoryHtml) {
           // Switch CSS class active to menu button
+          console.log(categoryHtml);
+          console.log("check 2");
           switchMenuToActive();
 
           var categoriesViewHtml =
             buildCategoriesViewHtml(categories,
                                     categoriesTitleHtml,
                                     categoryHtml);
+            console.log(categoriesViewHtml);
+            console.log("check 3");
           insertHtml("#main-content", categoriesViewHtml);
         },
         false);
@@ -136,7 +142,6 @@ function buildCategoriesViewHtml(categories,
                                  categoryHtml) {
 
   var finalHtml = categoriesTitleHtml;
-  console.log(finalHtml);
   finalHtml += "<section class='row'>";
 
   // Loop over categories
