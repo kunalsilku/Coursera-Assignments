@@ -154,6 +154,7 @@ function buildCategoriesViewHtml(categories,
   }
 
   finalHtml += "</section>";
+  console.log(finalHtml);
   return finalHtml;
 }
 
