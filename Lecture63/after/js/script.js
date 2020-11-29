@@ -107,11 +107,12 @@ dc.loadMenuItems = function (categoryShort) {
 // from the server
 function buildAndShowCategoriesHTML (categories) {
   // Load title snippet of categories page
+  console.log(categoriesTitleHtml);
   $ajaxUtils.sendGetRequest(
     categoriesTitleHtml,
     function (categoriesTitleHtml) {
       // Retrieve single category snippet
-      console.log(categoriesTitleHtml);
+      
       console.log("check 1");
       $ajaxUtils.sendGetRequest(
         categoryHtml,
