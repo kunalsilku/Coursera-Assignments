@@ -136,6 +136,7 @@ function buildCategoriesViewHtml(categories,
                                  categoryHtml) {
 
   var finalHtml = categoriesTitleHtml;
+  console.log(finalHtml);
   finalHtml += "<section class='row'>";
 
   // Loop over categories
@@ -154,7 +155,6 @@ function buildCategoriesViewHtml(categories,
   }
 
   finalHtml += "</section>";
-  console.log(finalHtml);
   return finalHtml;
 }
 
