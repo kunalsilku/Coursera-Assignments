@@ -99,7 +99,7 @@ function buildAndShowHomeHTML (categories) {
   console.log("check 2");
   $ajaxUtils.sendGetRequest(
     homeHtmlUrl,
-    function (homeHtml) {
+    function (homeHtmlUrl) {
 
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
@@ -118,7 +118,7 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      console.log("Hello there")
+      console.log("check 3")
       var homeHtmlToInsertIntoMainPage = homeHtmlUrl;
       console.log(homeHtmlToInsertIntoMainPage);
       homeHtmlToInsertIntoMainPage = 
